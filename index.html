@@ -56,7 +56,7 @@
             <div class="carousel-item active" style="background-image: url(./assets/css/Background.jpg)">
               <div class="carousel-container">
                 <div class="container">
-                  <h2 class="animate__animated animate__fadeInDown">Welcome to <span>FAB Education Books Nig. Ltd.</span></h2>
+                  <h2 class="animate__animated animate__fadeInDown">Welcome to <span>FAB Educational Books Nig. Ltd.</span></h2>
                   <p class="animate__animated animate__fadeInUp">Get a range of learning and teaching resources
                     from award winning fiction to National approved educational texts.</p>
                   <a href="./books.html" class="btn-get-started animate__animated animate__fadeInUp scrollto"><span class="iconify-inline mx-1" data-icon="icomoon-free:books" style="color: white;"></span></i>Our Books</a>
@@ -207,6 +207,7 @@ proven credibility, top-notch creativity and quality, we are merely a phone call
               <li><i class="bx bx-chevron-right"></i> <a href="#">About Us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Contact</a></li>
             </ul>
+            <a href="#"><button class="btn py-1, px-3 text-white" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: #FCA433;"><span class="iconify-inline mx-1" data-icon="eos-icons:admin-outlined" style="color: white;"></span>Admin</button></a>
           </div>
 
 
@@ -226,6 +227,30 @@ proven credibility, top-notch creativity and quality, we are merely a phone call
     </div>
   </footer><!-- End Footer -->
 
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Admin Access</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container d-flex justify-content-center align-items-center flex-column">
+          <input type="text" class="admin-login-texbox mt-3 px-2 py3" placeholder="Enter Username">
+          <input type="password" class="admin-login-texbox-pass mt-3 px-2 py3" placeholder="Enterpassword">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button"  style="background-color: #FCA433;" class="btn Access-btn text-white">Access</button>
+
+        <a href="./new.html" class="next-btn"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
@@ -244,6 +269,8 @@ proven credibility, top-notch creativity and quality, we are merely a phone call
 <script src="assets/js/main.js"></script>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="./assets/js/form.js"></script>
+
+<script src="./modal.js"></script>
 
 <!-- firebase -->
 <script src="./fire.js"></script>
